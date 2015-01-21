@@ -1,5 +1,6 @@
 Add to your settings.py:
 
+
   DATABASES = {
       'default': {
           'ENGINE': 'django.db.backends.sqlite3',
@@ -30,6 +31,7 @@ Add to your settings.py:
                     
 
 and you need to add a routers.py file referenced in DATABASE_ROUTERS above, this one for shippees app:
+
 
   class ShippeesRouter(object):
       """
