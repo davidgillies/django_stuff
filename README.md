@@ -1,7 +1,7 @@
 # django_stuff
 A repo of the django stuff I've picked up including some other non-django things I've tested along the way.
 
-* mysql backend with pymysql
+* [mysql.md](https://github.com/davidgillies/django_stuff/blob/master/mysql.md "mysql.md") backend with pymysql 
 
 ## To dos
 * sqlsoup
