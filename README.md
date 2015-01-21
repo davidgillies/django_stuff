@@ -16,3 +16,4 @@ A repo of the django stuff I've picked up including some other non-django things
 * docopt
 * sqlalchemy
 * lxml.objectify
+* pyro
