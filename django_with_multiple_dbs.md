@@ -1,34 +1,34 @@
 Add to your settings.py:
 
 
-  DATABASES = {
-      'default': {
-          'ENGINE': 'django.db.backends.sqlite3',
-          'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-      },
-      'db2': {
-          'ENGINE': 'django.db.backends.sqlite3',
-          'NAME': os.path.join(BASE_DIR, 'db2.sqlite'),
-      },
-      'db3': {
-          'ENGINE': 'django.db.backends.sqlite3',
-          'NAME': os.path.join(BASE_DIR, 'db3.sqlite'),
-      },
-      'db4': {
-          'ENGINE': 'django.db.backends.sqlite3',
-          'NAME': os.path.join(BASE_DIR, 'db3.sqlite'),
-      },
-      'db5': {
-          'ENGINE': 'django.db.backends.sqlite3',
-          'NAME': os.path.join(BASE_DIR, 'flasktaskr.db'),
-      }
-  }
+    DATABASES = {
+        'default': {
+            'ENGINE': 'django.db.backends.sqlite3',
+            'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        },
+        'db2': {
+            'ENGINE': 'django.db.backends.sqlite3',
+            'NAME': os.path.join(BASE_DIR, 'db2.sqlite'),
+        },
+        'db3': {
+            'ENGINE': 'django.db.backends.sqlite3',
+            'NAME': os.path.join(BASE_DIR, 'db3.sqlite'),
+        },
+        'db4': {
+            'ENGINE': 'django.db.backends.sqlite3',
+            'NAME': os.path.join(BASE_DIR, 'db3.sqlite'),
+        },
+        'db5': {
+            'ENGINE': 'django.db.backends.sqlite3',
+            'NAME': os.path.join(BASE_DIR, 'flasktaskr.db'),
+        }
+    }
 
-  DATABASE_ROUTERS = ['shippees.routers.ShippeesRouter',
-                    'yachts.routers.YachtsRouter',
-                    'flasktasks.routers.FlaskTasksRouter',
-                    ]
-                    
+    DATABASE_ROUTERS = ['shippees.routers.ShippeesRouter',
+                      'yachts.routers.YachtsRouter',
+                      'flasktasks.routers.FlaskTasksRouter',
+                      ]
+
 
 and you need to add a routers.py file referenced in DATABASE_ROUTERS above, this one for shippees app:
 
