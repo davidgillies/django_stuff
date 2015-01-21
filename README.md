@@ -11,6 +11,8 @@ A repo of the django stuff I've picked up including some other non-django things
 * useful extensions list
 * sandman
 * pyramid
+* flask
+* web2py
 * docopt
 * sqlalchemy
 * lxml.objectify
