@@ -21,3 +21,4 @@ A repo of the django stuff I've picked up including some other non-django things
 * gunicorn
 * rson
 * rsonlite
+* docx
