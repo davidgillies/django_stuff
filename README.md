@@ -22,3 +22,6 @@ A repo of the django stuff I've picked up including some other non-django things
 * rson
 * rsonlite
 * docx
+* add action to the admin interface (for something...) https://docs.djangoproject.com/en/1.7/ref/contrib/admin/actions/
+* reorganise admin page with fieldsets
+* 
