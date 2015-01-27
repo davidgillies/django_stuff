@@ -1,5 +1,5 @@
 1. Install apache, has to the right one to match your system, python version.
-2. Install mod_wsgi, has to be the right one to match your system (e.g. 32, 64), python version and apache version.
+2. Install mod_wsgi, has to be the right one to match your system (e.g. 32, 64), python version and apache version.  You just drop the right mod_wsgi.so into the modules folder and address it correctly in the LoadModule statement below.
 3. In your httpd.conf you have to define ServerRoot, DocumentRoot etc., comment out SSL stuff and calls httpd-sni.conf and httpd-ssl.conf as well as various config for these.
 4. Add:
 
