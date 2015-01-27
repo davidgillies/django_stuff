@@ -18,7 +18,10 @@
         
 5. Obviously change your the apache settings above to match your django stuff.
 6. Launch apache with the httpd.exe (probably just httpd in Mac)
-7. Create a static files folder using python manage collectstatic.  This collects all your static crap into the STATIC_ROOT as defined in your settings.  
+7. Create a static files folder using python manage collectstatic.  This collects all your static crap into the STATIC_ROOT as defined in your settings e.g 
+
+        STATIC_ROOT = 'U:/Data/show_case/study_manager/sm_project/static'
+
 8. Next you have to set up an alias in httpd.conf:
 
         <Directory "U:/Data/show_case/study_manager/sm_project/static">
