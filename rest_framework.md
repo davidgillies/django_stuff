@@ -74,7 +74,7 @@ After installing:
         	serializer_class = VolunteerSerializer
         	
         	
-	class SurgeryViewSet(viewsets.ModelViewSet):
+        class SurgeryViewSet(viewsets.ModelViewSet):
         	"""
         	This viewset automatically provides `list` and `detail` actions.
         	"""
