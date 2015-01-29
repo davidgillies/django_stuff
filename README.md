@@ -9,6 +9,7 @@ A repo of the django stuff I've picked up including some other non-django things
 * multiple databases with django
 * restframework set up
 * useful extensions list
+* eventlog
 * sandman
 * pyramid
 * flask
