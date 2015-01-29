@@ -12,25 +12,25 @@ After installing:
 
 3. Create a serializers.py file in your app and add in classes for all the models you want in the api, e.g.:
 
-    class VolunteerSerializer(serializers.HyperlinkedModelSerializer):
-        class Meta:
-            model = Volunteer
-            exclude = ("user",)
+    	class VolunteerSerializer(serializers.HyperlinkedModelSerializer):
+        	class Meta:
+            	model = Volunteer
+            	exclude = ("user",)
 
 
-    class AppointmentSerializer(serializers.HyperlinkedModelSerializer):
-        class Meta:
-            model = Appointment
+    	class AppointmentSerializer(serializers.HyperlinkedModelSerializer):
+        	class Meta:
+            	model = Appointment
 
 
-    class SurgerySerializer(serializers.HyperlinkedModelSerializer):
-        class Meta:
-            model = Surgery
+    	class SurgerySerializer(serializers.HyperlinkedModelSerializer):
+        	class Meta:
+            	model = Surgery
 
 
-    class GPSerializer(serializers.HyperlinkedModelSerializer):
-        class Meta:
-            model = GP
+		class GPSerializer(serializers.HyperlinkedModelSerializer):
+        	class Meta:
+            	model = GP
             
 
 4. In your apps urls.py add in the router urls, I think there are more ways of doing this, e.g.:
