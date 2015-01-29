@@ -5,10 +5,11 @@ After installing
 1. Add rest_framework to your INSTALLED_APPS in settings.py
 2. You can add other options in settings.py such as:
 
-    REST_FRAMEWORK = {
-    'DEFAULT_PERMISSION_CLASSES': ('rest_framework.permissions.IsAdminUser',),
-    'PAGINATE_BY': 10
-    }
+
+        REST_FRAMEWORK = {
+    	'DEFAULT_PERMISSION_CLASSES': ('rest_framework.permissions.IsAdminUser',),
+        'PAGINATE_BY': 10
+        }
     
 
 3. Create a serializers.py file in your app and add in classes for all the models you want in the api, e.g.:
