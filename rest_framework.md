@@ -41,7 +41,7 @@ After installing:
     	router.register(r'appointments', views.AppointmentViewSet)
     	router.register(r'surgeries', views.SurgeryViewSet)
     	router.register(r'gps', views.GPViewSet)
-	urlpatterns = patterns('',
+        urlpatterns = patterns('',
         		url(r'^$', 'study_manager.views.index', name='index'), 
         		url(r'^api/', include(router.urls)),
     	)
@@ -90,7 +90,7 @@ After installing:
         	serializer_class = GPSerializer
         	
         	
-	class AppointmentViewSet(viewsets.ModelViewSet):
+        class AppointmentViewSet(viewsets.ModelViewSet):
         	"""
         	This viewset automatically provides `list` and `detail` actions.
         	"""
