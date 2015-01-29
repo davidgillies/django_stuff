@@ -1,6 +1,7 @@
     pip install djangorestframework
     
-After installing:
+After installing
+
 1. Add rest_framework to your INSTALLED_APPS in settings.py
 2. You can add other options in settings.py such as:
 
