@@ -5,6 +5,7 @@ A repo of the django stuff I've picked up including some other non-django things
 
 ## To dos
 * sqlsoup
+* sqlsoup with dictionary input and convert records to dictionary
 * django-jsonview
 * switch style function
 * multiple databases with django
