@@ -2,6 +2,8 @@
 A repo of the django stuff I've picked up including some other non-django things I've tested along the way.
 
 * [mysql.md](https://github.com/davidgillies/django_stuff/blob/master/mysql.md "mysql.md") backend with pymysql 
+* [django_mod_wsgi.md](https://github.com/davidgillies/django_stuff/blob/master/django_mod_wsgi.md "django_mod_wsgi.md") Setting up apache to run django.
+* [django_with_multiple_dbs.md](https://github.com/davidgillies/django_stuff/blob/master/django_with_multiple_dbs.md "django_mod_wsgi.md") Setting up django with multiple databases.
 
 ## To dos
 * sqlsoup
