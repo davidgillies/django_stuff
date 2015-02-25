@@ -22,8 +22,8 @@ A repo of the django stuff I've picked up including some other non-django things
 * pyro
 * some of those admin styling apps
 * gunicorn
-* rson
-* rsonlite
+* rson - a superset of json https://code.google.com/p/rson/
+* rsonlite - lightweight version of rson, more flexible than json, used to parse command line variables passes as dictionaries.  https://pypi.python.org/pypi/rsonlite/0.1.0
 * docx
 * add action to the admin interface (for something...) https://docs.djangoproject.com/en/1.7/ref/contrib/admin/actions/
 * reorganise admin page with fieldsets
