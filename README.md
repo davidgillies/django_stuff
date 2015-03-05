@@ -12,10 +12,6 @@ A repo of the django stuff I've picked up including some other non-django things
 
 ## To dos
 * django-jsonview
-* switch style function
-* multiple databases with django
-* restframework set up
-* useful extensions list
 * eventlog
 * sandman
 * pyramid
