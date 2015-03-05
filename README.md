@@ -8,9 +8,9 @@ A repo of the django stuff I've picked up including some other non-django things
 * [sqlsoup.md](https://github.com/davidgillies/django_stuff/blob/master/sqlsoup.md "sqlsoup.md") Various simple examples of using sqlsoup.
 * [switch_style_function.md](https://github.com/davidgillies/django_stuff/blob/master/switch_style_function.md "switch_style_function.md") Basic switch style python function.
 * [Useful extensions to python/django](https://github.com/davidgillies/django_stuff/blob/master/useful_extensions.md)
+* [adding django middleware example] (https://github.com/davidgillies/django_stuff/blob/master/django_middleware_demo.md)
 
 ## To dos
-* adding django middleware example
 * django-jsonview
 * switch style function
 * multiple databases with django
