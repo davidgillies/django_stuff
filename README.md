@@ -10,8 +10,6 @@ A repo of the django stuff I've picked up including some other non-django things
 * [Useful extensions to python/django](https://github.com/davidgillies/django_stuff/blob/master/useful_extensions.md)
 
 ## To dos
-* sqlsoup
-* sqlsoup with dictionary input and convert records to dictionary
 * adding django middleware example
 * django-jsonview
 * switch style function
