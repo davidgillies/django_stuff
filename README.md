@@ -10,6 +10,7 @@ A repo of the django stuff I've picked up including some other non-django things
 * [Useful extensions to python/django](https://github.com/davidgillies/django_stuff/blob/master/useful_extensions.md)
 * [adding django middleware example] (https://github.com/davidgillies/django_stuff/blob/master/django/django_middleware_demo.md)
 * [Using eventlog with django](https://github.com/davidgillies/django_stuff/blob/master/django/django_with_eventlog.md)
+* [lxml.objectify turns xml into objects](https://github.com/davidgillies/django_stuff/blob/master/python/lxml_objectify.md)
 
 ## To dos
 * django-jsonview
