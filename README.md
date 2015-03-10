@@ -20,7 +20,6 @@ A repo of the django stuff I've picked up including some other non-django things
 * web2py
 * docopt
 * sqlalchemy
-* lxml.objectify
 * pyro
 * some of those admin styling apps
 * gunicorn
