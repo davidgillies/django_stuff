@@ -7,6 +7,7 @@
 * Basic scripting
 * Functions, Methods, Classes
 * Loops
+* Modules, namespaces
 * Debugging basics
 * Conditional logic
 * Lists and Dictionaries
@@ -17,3 +18,25 @@
 * numpy, matplotlib
 * gui
 * Web Frameworks - Django, Flask, Web2py, cherrypy, etc.
+* Web Dev/Http requests
+* MVC
+* Bootstrap/Templating
+* JSON
+* JQuery
+
+##Django
+* Installation in a virtualenv
+* Debugging and extensions
+* Django Admin
+* Models
+* Databases
+* Views
+* Templates
+* Middleware
+* CBVs
+* Forms
+* Ajax
+* Url routing
+* Static and Media files
+* 
+
