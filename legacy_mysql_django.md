@@ -64,8 +64,9 @@ Don't want all the usual django crap in our database so I've left it in sqlite.
       python manage.py inspectdb --database db2 > models.py
       
 * Do the migrations:
-      python manage.py makemigrations
-      python manage.py migrate
+
+            python manage.py makemigrations
+            python manage.py migrate
       
 * Set up your admin stuff as usual.
 
