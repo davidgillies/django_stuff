@@ -1,8 +1,8 @@
 ## Setting up Django to use a legacy MySQL database
 
-1. [Set up django to use pymysql](https://github.com/davidgillies/django_stuff/blob/master/django/mysql.md)
-2. pip install pymysql
-3. Set up the DATABASESin settings.py
+* [Set up django to use pymysql](https://github.com/davidgillies/django_stuff/blob/master/django/mysql.md)
+* pip install pymysql
+* Set up the DATABASES in settings.py
 
             DATABASES = {
                  'default': {
@@ -21,7 +21,7 @@
       
 Don't want all the usual django crap in our database so I've left it in sqlite.
 
-4. You need to set up routers.py in your app folder to route the app to the right database:
+* You need to set up routers.py in your app folder to route the app to the right database:
 
       
             class PlayRouter(object):
@@ -57,16 +57,16 @@ Don't want all the usual django crap in our database so I've left it in sqlite.
                         return None
               
 
-5. In settings.py fot eh project:
+* In settings.py fot eh project:
       DATABASE_ROUTERS = ['rest_no_model.routers.PlayRouter',]
 
-6. To create a models.py from the existing database:
+* To create a models.py from the existing database:
       python manage.py inspectdb --database db2 > models.py
       
-7. Do the migrations:
+* Do the migrations:
       python manage.py makemigrations
       python manage.py migrate
       
-8. Set up your admin stuff as usual.
+* Set up your admin stuff as usual.
 
 
