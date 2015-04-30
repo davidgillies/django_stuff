@@ -13,10 +13,10 @@ In admin.py connect model to admin:
 
 In views.py:
 
-from django.shortcuts import render
-from django.template import Template, Context
-from .models import MyTemplate
-from django.http import HttpResponse
+    from django.shortcuts import render
+    from django.template import Template, Context
+    from .models import MyTemplate
+    from django.http import HttpResponse
 
 
     def db_tpl(request):
