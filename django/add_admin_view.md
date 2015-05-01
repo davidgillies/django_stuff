@@ -28,7 +28,7 @@ Replace django.contrib.admin with django.contrib.admin.apps.SimpleAdminConfig in
 Now in admin.py:
 
     def my_view(request, *args, **kwargs):
-        HttpResponse('hello')
+        return HttpResponse('hello')
     admin.site.register_view('somepath', view=my_view)
     
 This adds a Custom Views box to the admin views with a link to /admin/somepath
