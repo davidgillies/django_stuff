@@ -16,7 +16,7 @@ Add some stuff to CustonIndexDashboard:
             children=[
                 {
                     'title': _('Some Google Chart Reports'),
-                    'url': '/admin/somepath',
+                    'url': reverse('admin:somepath'),
                     'external': False,
                 },
                       ]
@@ -26,8 +26,8 @@ Add some stuff to the CustomMenu:
 
             items.MenuItem(
                 title= _('Reports'), url='#', children=[
-                items.MenuItem(title=_('Some Google Chart Reports'), url='/admin/somepath')]
+                items.MenuItem(title=_('Some Google Chart Reports'), url=reverse('admin:somepath'))]
             ),
             
-Here adding MenuItems.  
+Here adding MenuItems.  Note adding the reverse so it works on Apache and Django.  You have to use a urlname argument with djangoadminplus to get it added.
 
