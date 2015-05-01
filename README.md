@@ -13,9 +13,9 @@ A repo of the django stuff I've picked up including some other non-django things
 * [lxml.objectify turns xml into objects](https://github.com/davidgillies/django_stuff/blob/master/python/lxml_objectify.md)
 
 ##Stuff
-https://github.com/humiaozuzu/awesome-flask
-https://github.com/rosarior/awesome-django
-https://github.com/vinta/awesome-python
+* https://github.com/humiaozuzu/awesome-flask
+* https://github.com/rosarior/awesome-django
+* https://github.com/vinta/awesome-python
 
 ## To dos
 * django-jsonview
