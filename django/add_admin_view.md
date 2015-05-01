@@ -11,6 +11,9 @@ Add to apps:
         # ... 
     )
     
+Also replace 'django.contrib.admin' in INSTALLED APPS with:
+
+            'django.contrib.admin.apps.SimpleAdminConfig',
 
 Add to urls.py:
 
