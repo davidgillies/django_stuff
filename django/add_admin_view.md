@@ -29,7 +29,7 @@ Now in admin.py:
 
     def my_view(request, *args, **kwargs):
         return HttpResponse('hello')
-    admin.site.register_view('somepath', view=my_view)
+    admin.site.register_view('somepath', view=my_view, urlname='somepath')
     
-This adds a Custom Views box to the admin views with a link to /admin/somepath
+This adds a Custom Views box to the admin views with a link to /admin/somepath.  The urlname arg makes it possible for you to use the reverse function to get the right url for links.  reverse('admin:somepath').
 
