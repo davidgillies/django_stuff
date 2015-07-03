@@ -35,3 +35,4 @@ A repo of the django stuff I've picked up including some other non-django things
 * reorganise admin page with fieldsets
 * template stuff I did with the xml export version
 * https://openpyxl.readthedocs.org/en/latest/
+* render_to_string
