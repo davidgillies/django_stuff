@@ -37,3 +37,5 @@ A repo of the django stuff I've picked up including some other non-django things
 * https://openpyxl.readthedocs.org/en/latest/
 * render_to_string
 * add in tornado with django
+* web sockets - how to, with django
+* Adding web sockets with models and signals
