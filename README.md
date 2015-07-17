@@ -39,3 +39,16 @@ A repo of the django stuff I've picked up including some other non-django things
 * add in tornado with django
 * web sockets - how to, with django
 * Adding web sockets with models and signals
+** exp_x - using url variable to select template.
+* fabric for deployment
+* packaging an app
+* tree structures with mptt/polymorphic
+* explorer
+* rendering xml in django (fiber)
+* fiber
+* loading up loads of xml applications (forms_api)
+* nginx
+* advanced web stuff
+* mkdocs
+* virtualenv that can use global packages.
+*
