@@ -45,7 +45,7 @@ A repo of the django stuff I've picked up including some other non-django things
 * tree structures with mptt/polymorphic
 * explorer
 * rendering xml in django (fiber)
-* fiber
+* fiber config/changes to ckeditor etc./templating
 * loading up loads of xml applications (forms_api)
 * nginx
 * advanced web stuff
