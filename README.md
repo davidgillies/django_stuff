@@ -51,4 +51,5 @@ A repo of the django stuff I've picked up including some other non-django things
 * advanced web stuff
 * mkdocs
 * virtualenv that can use global packages.
-*
+* locust - load tester
+
