@@ -11,6 +11,7 @@ A repo of the django stuff I've picked up including some other non-django things
 * [adding django middleware example] (https://github.com/davidgillies/django_stuff/blob/master/django/django_middleware_demo.md)
 * [Using eventlog with django](https://github.com/davidgillies/django_stuff/blob/master/django/django_with_eventlog.md)
 * [lxml.objectify turns xml into objects](https://github.com/davidgillies/django_stuff/blob/master/python/lxml_objectify.md)
+* [TDD Testing Issues](https://github.com/davidgillies/django_stuff/blob/master/django/testing_errors.md)
 
 ##Stuff
 * https://github.com/humiaozuzu/awesome-flask
