@@ -1,3 +1,5 @@
+Locust is a load balancing server.
+
 Install locust
 
     pip install locustio
