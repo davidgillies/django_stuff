@@ -13,6 +13,7 @@ A repo of the django stuff I've picked up including some other non-django things
 * [lxml.objectify turns xml into objects](https://github.com/davidgillies/django_stuff/blob/master/python/lxml_objectify.md)
 * [TDD Testing Issues](https://github.com/davidgillies/django_stuff/blob/master/django/testing_errors.md)
 * [Using coverage with your tests](https://github.com/davidgillies/django_stuff/blob/master/django/coverage.md)
+* [Pushing a tag to github](https://github.com/davidgillies/django_stuff/blob/master/git_push_a_tag.md)
 
 ##Stuff
 * https://github.com/humiaozuzu/awesome-flask
