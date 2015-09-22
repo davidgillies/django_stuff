@@ -8,11 +8,6 @@ Create a local locustfile.py
 
     from locust import HttpLocust, TaskSet
 
-
-
-    def login(l):
-        l.client.get("/admin/login/?next=/admin/", auth=("admin", "admin"))
-
     def index(l):
         l.client.get("/admin/api_renderer/volunteer/")
 
