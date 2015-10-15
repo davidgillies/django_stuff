@@ -42,8 +42,8 @@ Use a Form to set up the variables you will test.
                 
 ##Usage
 
-m = MyForm({'my_value': 5, 'min_value': 10, 'max_value': 50})
-if m.is_valid():
-    for k,v in m.errors.items():
-        print v # outputs form html
-        print v[0] # just the text message.
+    m = MyForm({'my_value': 5, 'min_value': 10, 'max_value': 50})
+    if m.is_valid():
+        for k,v in m.errors.items():
+            print v # outputs form html
+            print v[0] # just the text message.
