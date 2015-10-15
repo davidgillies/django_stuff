@@ -15,7 +15,7 @@ To overload a form field use the following example
                 
 ##Usage
 
-    m = MyField(5)
+    m = MyField()
     try:
         m.clean(5)
     except ValidationError as e:
