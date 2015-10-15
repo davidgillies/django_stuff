@@ -37,7 +37,7 @@ Use a Form to set up the variables you will test.
             min_value = cleaned_data.get('min_value')
             max_value = cleaned_data.get('max_value')
             if my_value < min_value or my_value > max_value:
-                raise forms.ValidationError(('Not in range %(min_value)s - %(max_value)s'), code='invalid',                                      params={'min_value': min_value, 'max_value': max_value})
+                raise forms.ValidationError(('Not in range %(min_value)s - %(max_value)s'), code='invalid', params={'min_value': min_value, 'max_value': max_value})
                 
                 
 ##Usage
