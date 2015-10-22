@@ -15,7 +15,7 @@ A repo of the django stuff I've picked up including some other non-django things
 * [Using coverage with your tests](https://github.com/davidgillies/django_stuff/blob/master/django/coverage.md)
 * [Pushing a tag to github](https://github.com/davidgillies/django_stuff/blob/master/git_push_a_tag.md)
 * [virtualenv that can use global packages](https://github.com/davidgillies/django_stuff/blob/master/python/virtualenv_global.md)
-* [Overloading a form for validation]django/overload_a_form_field.md)
+* [Overloading a form for validation](django/overload_a_form_field.md)
 
 ##Stuff
 * https://github.com/humiaozuzu/awesome-flask
